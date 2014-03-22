@@ -65,8 +65,8 @@
 		A94AC9DD18DB20B700FB8B8F /* TTTSpotVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTSpotVC.m; path = "Tip Tap Top/TTTSpotVC.m"; sourceTree = "<group>"; };
 		A94AC9E418DB22A500FB8B8F /* TTTGames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTGames.h; path = "Tip Tap Top/TTTGames.h"; sourceTree = "<group>"; };
 		A94AC9E518DB22A500FB8B8F /* TTTGames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTGames.m; path = "Tip Tap Top/TTTGames.m"; sourceTree = "<group>"; };
-		A94AC9EB18DB297800FB8B8F /* MOVE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOVE.h; path = ../Move/MOVE.h; sourceTree = "<group>"; };
-		A94AC9EC18DB297800FB8B8F /* MOVE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOVE.m; path = ../Move/MOVE.m; sourceTree = "<group>"; };
+		A94AC9EB18DB297800FB8B8F /* MOVE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOVE.h; sourceTree = "<group>"; };
+		A94AC9EC18DB297800FB8B8F /* MOVE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOVE.m; sourceTree = "<group>"; };
 		A94AC9EE18DB3C4300FB8B8F /* TTTGameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTGameCell.h; path = "Tip Tap Top/TTTGameCell.h"; sourceTree = "<group>"; };
 		A94AC9EF18DB3C4300FB8B8F /* TTTGameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTGameCell.m; path = "Tip Tap Top/TTTGameCell.m"; sourceTree = "<group>"; };
 		A94AC9F418DCC01500FB8B8F /* TTTNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTNavController.h; path = "Tip Tap Top/TTTNavController.h"; sourceTree = "<group>"; };
