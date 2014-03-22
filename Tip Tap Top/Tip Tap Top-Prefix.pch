@@ -1,0 +1,29 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define TAN_COLOR [UIColor colorWithRed:248/255.0 green:248/255.0 blue:240/255.0 alpha:1.0]
+#define RED_COLOR [UIColor colorWithRed:255/255.0 green:8/255.0 blue:79/255.0 alpha:1.0]
+#define GREEN_COLOR [UIColor colorWithRed:7/255.0 green:224/255.0 blue:156/255.0 alpha:1.0]
+
+#define TAN_TRANSPARENT [UIColor colorWithRed:248/255.0 green:248/255.0 blue:240/255.0 alpha:0.7]
+#define RED_TRANSPARENT [UIColor colorWithRed:255/255.0 green:8/255.0 blue:79/255.0 alpha:0.7]
+#define GREEN_TRANSPARENT [UIColor colorWithRed:7/255.0 green:224/255.0 blue:156/255.0 alpha:0.7]
+
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+
+#define RANDOM_01 ((double)arc4random() / 0x100000000)

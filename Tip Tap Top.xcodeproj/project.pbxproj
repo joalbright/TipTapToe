@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94AC9AA18DB1F0E00FB8B8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94AC9A918DB1F0E00FB8B8F /* Foundation.framework */; };
+		A94AC9AC18DB1F0E00FB8B8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94AC9AB18DB1F0E00FB8B8F /* CoreGraphics.framework */; };
+		A94AC9AE18DB1F0E00FB8B8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94AC9AD18DB1F0E00FB8B8F /* UIKit.framework */; };
+		A94AC9B418DB1F0E00FB8B8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94AC9B218DB1F0E00FB8B8F /* InfoPlist.strings */; };
+		A94AC9B618DB1F0E00FB8B8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AC9B518DB1F0E00FB8B8F /* main.m */; };
+		A94AC9BA18DB1F0E00FB8B8F /* TTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AC9B918DB1F0E00FB8B8F /* TTTAppDelegate.m */; };
+		A94AC9BC18DB1F0E00FB8B8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94AC9BB18DB1F0E00FB8B8F /* Images.xcassets */; };
+		A94AC9C318DB1F0E00FB8B8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94AC9C218DB1F0E00FB8B8F /* XCTest.framework */; };
+		A94AC9C418DB1F0E00FB8B8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94AC9A918DB1F0E00FB8B8F /* Foundation.framework */; };
+		A94AC9C518DB1F0E00FB8B8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94AC9AD18DB1F0E00FB8B8F /* UIKit.framework */; };
+		A94AC9CD18DB1F0E00FB8B8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94AC9CB18DB1F0E00FB8B8F /* InfoPlist.strings */; };
+		A94AC9CF18DB1F0E00FB8B8F /* Tip_Tap_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AC9CE18DB1F0E00FB8B8F /* Tip_Tap_TopTests.m */; };
+		A94AC9DB18DB205F00FB8B8F /* TTTRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AC9DA18DB205F00FB8B8F /* TTTRootVC.m */; };
+		A94AC9DE18DB20B700FB8B8F /* TTTSpotVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AC9DD18DB20B700FB8B8F /* TTTSpotVC.m */; };
+		A94AC9E618DB22A500FB8B8F /* TTTGames.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AC9E518DB22A500FB8B8F /* TTTGames.m */; };
+		A94AC9ED18DB297800FB8B8F /* MOVE.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AC9EC18DB297800FB8B8F /* MOVE.m */; };
+		A94AC9F018DB3C4300FB8B8F /* TTTGameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AC9EF18DB3C4300FB8B8F /* TTTGameCell.m */; };
+		A94AC9F618DCC01500FB8B8F /* TTTNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AC9F518DCC01500FB8B8F /* TTTNavController.m */; };
+		A94AC9F918DCDDC700FB8B8F /* TTTRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AC9F818DCDDC700FB8B8F /* TTTRobot.m */; };
+		A94AC9FD18DD0FF900FB8B8F /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = A94AC9FB18DD0FF900FB8B8F /* person.png */; };
+		A94AC9FE18DD0FF900FB8B8F /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = A94AC9FC18DD0FF900FB8B8F /* robot.png */; };
+		A94ACA0018DD210500FB8B8F /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = A94AC9FF18DD210500FB8B8F /* stats.png */; };
+		A94ACA0218DD40D900FB8B8F /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = A94ACA0118DD40D900FB8B8F /* close.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94AC9C618DB1F0E00FB8B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94AC99E18DB1F0E00FB8B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94AC9A518DB1F0E00FB8B8F;
+			remoteInfo = "Tip Tap Top";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A94AC9A618DB1F0E00FB8B8F /* TipTapToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipTapToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94AC9A918DB1F0E00FB8B8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A94AC9AB18DB1F0E00FB8B8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A94AC9AD18DB1F0E00FB8B8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A94AC9B118DB1F0E00FB8B8F /* Tip Tap Top-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tip Tap Top-Info.plist"; sourceTree = "<group>"; };
+		A94AC9B318DB1F0E00FB8B8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A94AC9B518DB1F0E00FB8B8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A94AC9B718DB1F0E00FB8B8F /* Tip Tap Top-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tip Tap Top-Prefix.pch"; sourceTree = "<group>"; };
+		A94AC9B818DB1F0E00FB8B8F /* TTTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTAppDelegate.h; sourceTree = "<group>"; };
+		A94AC9B918DB1F0E00FB8B8F /* TTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTAppDelegate.m; sourceTree = "<group>"; };
+		A94AC9BB18DB1F0E00FB8B8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A94AC9C118DB1F0E00FB8B8F /* Tip Tap TopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip Tap TopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94AC9C218DB1F0E00FB8B8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A94AC9CA18DB1F0E00FB8B8F /* Tip Tap TopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tip Tap TopTests-Info.plist"; sourceTree = "<group>"; };
+		A94AC9CC18DB1F0E00FB8B8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A94AC9CE18DB1F0E00FB8B8F /* Tip_Tap_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_Tap_TopTests.m; sourceTree = "<group>"; };
+		A94AC9D918DB205F00FB8B8F /* TTTRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTRootVC.h; path = "Tip Tap Top/TTTRootVC.h"; sourceTree = "<group>"; };
+		A94AC9DA18DB205F00FB8B8F /* TTTRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTRootVC.m; path = "Tip Tap Top/TTTRootVC.m"; sourceTree = "<group>"; };
+		A94AC9DC18DB20B700FB8B8F /* TTTSpotVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTSpotVC.h; path = "Tip Tap Top/TTTSpotVC.h"; sourceTree = "<group>"; };
+		A94AC9DD18DB20B700FB8B8F /* TTTSpotVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTSpotVC.m; path = "Tip Tap Top/TTTSpotVC.m"; sourceTree = "<group>"; };
+		A94AC9E418DB22A500FB8B8F /* TTTGames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTGames.h; path = "Tip Tap Top/TTTGames.h"; sourceTree = "<group>"; };
+		A94AC9E518DB22A500FB8B8F /* TTTGames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTGames.m; path = "Tip Tap Top/TTTGames.m"; sourceTree = "<group>"; };
+		A94AC9EB18DB297800FB8B8F /* MOVE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOVE.h; path = ../Move/MOVE.h; sourceTree = "<group>"; };
+		A94AC9EC18DB297800FB8B8F /* MOVE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOVE.m; path = ../Move/MOVE.m; sourceTree = "<group>"; };
+		A94AC9EE18DB3C4300FB8B8F /* TTTGameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTGameCell.h; path = "Tip Tap Top/TTTGameCell.h"; sourceTree = "<group>"; };
+		A94AC9EF18DB3C4300FB8B8F /* TTTGameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTGameCell.m; path = "Tip Tap Top/TTTGameCell.m"; sourceTree = "<group>"; };
+		A94AC9F418DCC01500FB8B8F /* TTTNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTNavController.h; path = "Tip Tap Top/TTTNavController.h"; sourceTree = "<group>"; };
+		A94AC9F518DCC01500FB8B8F /* TTTNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTNavController.m; path = "Tip Tap Top/TTTNavController.m"; sourceTree = "<group>"; };
+		A94AC9F718DCDDC700FB8B8F /* TTTRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTRobot.h; path = "Tip Tap Top/TTTRobot.h"; sourceTree = "<group>"; };
+		A94AC9F818DCDDC700FB8B8F /* TTTRobot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTRobot.m; path = "Tip Tap Top/TTTRobot.m"; sourceTree = "<group>"; };
+		A94AC9FB18DD0FF900FB8B8F /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		A94AC9FC18DD0FF900FB8B8F /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robot.png; sourceTree = "<group>"; };
+		A94AC9FF18DD210500FB8B8F /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
+		A94ACA0118DD40D900FB8B8F /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94AC9A318DB1F0E00FB8B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AC9AC18DB1F0E00FB8B8F /* CoreGraphics.framework in Frameworks */,
+				A94AC9AE18DB1F0E00FB8B8F /* UIKit.framework in Frameworks */,
+				A94AC9AA18DB1F0E00FB8B8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94AC9BE18DB1F0E00FB8B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AC9C318DB1F0E00FB8B8F /* XCTest.framework in Frameworks */,
+				A94AC9C518DB1F0E00FB8B8F /* UIKit.framework in Frameworks */,
+				A94AC9C418DB1F0E00FB8B8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94AC99D18DB1F0E00FB8B8F = {
+			isa = PBXGroup;
+			children = (
+				A94AC9EA18DB296500FB8B8F /* Random */,
+				A94AC9E318DB225800FB8B8F /* Models */,
+				A94AC9D818DB203B00FB8B8F /* Controllers */,
+				A94AC9AF18DB1F0E00FB8B8F /* Tip Tap Top */,
+				A94AC9C818DB1F0E00FB8B8F /* Tip Tap TopTests */,
+				A94AC9A818DB1F0E00FB8B8F /* Frameworks */,
+				A94AC9A718DB1F0E00FB8B8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A94AC9A718DB1F0E00FB8B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94AC9A618DB1F0E00FB8B8F /* TipTapToe.app */,
+				A94AC9C118DB1F0E00FB8B8F /* Tip Tap TopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94AC9A818DB1F0E00FB8B8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94AC9A918DB1F0E00FB8B8F /* Foundation.framework */,
+				A94AC9AB18DB1F0E00FB8B8F /* CoreGraphics.framework */,
+				A94AC9AD18DB1F0E00FB8B8F /* UIKit.framework */,
+				A94AC9C218DB1F0E00FB8B8F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94AC9AF18DB1F0E00FB8B8F /* Tip Tap Top */ = {
+			isa = PBXGroup;
+			children = (
+				A94AC9FA18DD0FEA00FB8B8F /* Images */,
+				A94AC9B818DB1F0E00FB8B8F /* TTTAppDelegate.h */,
+				A94AC9B918DB1F0E00FB8B8F /* TTTAppDelegate.m */,
+				A94AC9BB18DB1F0E00FB8B8F /* Images.xcassets */,
+				A94AC9B018DB1F0E00FB8B8F /* Supporting Files */,
+			);
+			path = "Tip Tap Top";
+			sourceTree = "<group>";
+		};
+		A94AC9B018DB1F0E00FB8B8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94AC9B118DB1F0E00FB8B8F /* Tip Tap Top-Info.plist */,
+				A94AC9B218DB1F0E00FB8B8F /* InfoPlist.strings */,
+				A94AC9B518DB1F0E00FB8B8F /* main.m */,
+				A94AC9B718DB1F0E00FB8B8F /* Tip Tap Top-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A94AC9C818DB1F0E00FB8B8F /* Tip Tap TopTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94AC9CE18DB1F0E00FB8B8F /* Tip_Tap_TopTests.m */,
+				A94AC9C918DB1F0E00FB8B8F /* Supporting Files */,
+			);
+			path = "Tip Tap TopTests";
+			sourceTree = "<group>";
+		};
+		A94AC9C918DB1F0E00FB8B8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94AC9CA18DB1F0E00FB8B8F /* Tip Tap TopTests-Info.plist */,
+				A94AC9CB18DB1F0E00FB8B8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A94AC9D818DB203B00FB8B8F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A94AC9F418DCC01500FB8B8F /* TTTNavController.h */,
+				A94AC9F518DCC01500FB8B8F /* TTTNavController.m */,
+				A94AC9D918DB205F00FB8B8F /* TTTRootVC.h */,
+				A94AC9DA18DB205F00FB8B8F /* TTTRootVC.m */,
+				A94AC9E218DB222C00FB8B8F /* Components */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A94AC9E218DB222C00FB8B8F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A94AC9EE18DB3C4300FB8B8F /* TTTGameCell.h */,
+				A94AC9EF18DB3C4300FB8B8F /* TTTGameCell.m */,
+				A94AC9DC18DB20B700FB8B8F /* TTTSpotVC.h */,
+				A94AC9DD18DB20B700FB8B8F /* TTTSpotVC.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		A94AC9E318DB225800FB8B8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A94AC9E418DB22A500FB8B8F /* TTTGames.h */,
+				A94AC9E518DB22A500FB8B8F /* TTTGames.m */,
+				A94AC9F718DCDDC700FB8B8F /* TTTRobot.h */,
+				A94AC9F818DCDDC700FB8B8F /* TTTRobot.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A94AC9EA18DB296500FB8B8F /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				A94AC9EB18DB297800FB8B8F /* MOVE.h */,
+				A94AC9EC18DB297800FB8B8F /* MOVE.m */,
+			);
+			name = Random;
+			sourceTree = "<group>";
+		};
+		A94AC9FA18DD0FEA00FB8B8F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A94ACA0118DD40D900FB8B8F /* close.png */,
+				A94AC9FF18DD210500FB8B8F /* stats.png */,
+				A94AC9FB18DD0FF900FB8B8F /* person.png */,
+				A94AC9FC18DD0FF900FB8B8F /* robot.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94AC9A518DB1F0E00FB8B8F /* TipTapToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94AC9D218DB1F0E00FB8B8F /* Build configuration list for PBXNativeTarget "TipTapToe" */;
+			buildPhases = (
+				A94AC9A218DB1F0E00FB8B8F /* Sources */,
+				A94AC9A318DB1F0E00FB8B8F /* Frameworks */,
+				A94AC9A418DB1F0E00FB8B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipTapToe;
+			productName = "Tip Tap Top";
+			productReference = A94AC9A618DB1F0E00FB8B8F /* TipTapToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94AC9C018DB1F0E00FB8B8F /* Tip Tap TopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94AC9D518DB1F0E00FB8B8F /* Build configuration list for PBXNativeTarget "Tip Tap TopTests" */;
+			buildPhases = (
+				A94AC9BD18DB1F0E00FB8B8F /* Sources */,
+				A94AC9BE18DB1F0E00FB8B8F /* Frameworks */,
+				A94AC9BF18DB1F0E00FB8B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94AC9C718DB1F0E00FB8B8F /* PBXTargetDependency */,
+			);
+			name = "Tip Tap TopTests";
+			productName = "Tip Tap TopTests";
+			productReference = A94AC9C118DB1F0E00FB8B8F /* Tip Tap TopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94AC99E18DB1F0E00FB8B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jo Albright";
+				TargetAttributes = {
+					A94AC9A518DB1F0E00FB8B8F = {
+						DevelopmentTeam = 965FHW76SM;
+					};
+					A94AC9C018DB1F0E00FB8B8F = {
+						TestTargetID = A94AC9A518DB1F0E00FB8B8F;
+					};
+				};
+			};
+			buildConfigurationList = A94AC9A118DB1F0E00FB8B8F /* Build configuration list for PBXProject "Tip Tap Top" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A94AC99D18DB1F0E00FB8B8F;
+			productRefGroup = A94AC9A718DB1F0E00FB8B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94AC9A518DB1F0E00FB8B8F /* TipTapToe */,
+				A94AC9C018DB1F0E00FB8B8F /* Tip Tap TopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94AC9A418DB1F0E00FB8B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94ACA0218DD40D900FB8B8F /* close.png in Resources */,
+				A94AC9FD18DD0FF900FB8B8F /* person.png in Resources */,
+				A94AC9B418DB1F0E00FB8B8F /* InfoPlist.strings in Resources */,
+				A94AC9FE18DD0FF900FB8B8F /* robot.png in Resources */,
+				A94AC9BC18DB1F0E00FB8B8F /* Images.xcassets in Resources */,
+				A94ACA0018DD210500FB8B8F /* stats.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94AC9BF18DB1F0E00FB8B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AC9CD18DB1F0E00FB8B8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94AC9A218DB1F0E00FB8B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AC9B618DB1F0E00FB8B8F /* main.m in Sources */,
+				A94AC9DE18DB20B700FB8B8F /* TTTSpotVC.m in Sources */,
+				A94AC9F618DCC01500FB8B8F /* TTTNavController.m in Sources */,
+				A94AC9DB18DB205F00FB8B8F /* TTTRootVC.m in Sources */,
+				A94AC9ED18DB297800FB8B8F /* MOVE.m in Sources */,
+				A94AC9E618DB22A500FB8B8F /* TTTGames.m in Sources */,
+				A94AC9F918DCDDC700FB8B8F /* TTTRobot.m in Sources */,
+				A94AC9F018DB3C4300FB8B8F /* TTTGameCell.m in Sources */,
+				A94AC9BA18DB1F0E00FB8B8F /* TTTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94AC9BD18DB1F0E00FB8B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AC9CF18DB1F0E00FB8B8F /* Tip_Tap_TopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94AC9C718DB1F0E00FB8B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94AC9A518DB1F0E00FB8B8F /* TipTapToe */;
+			targetProxy = A94AC9C618DB1F0E00FB8B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A94AC9B218DB1F0E00FB8B8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94AC9B318DB1F0E00FB8B8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A94AC9CB18DB1F0E00FB8B8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94AC9CC18DB1F0E00FB8B8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94AC9D018DB1F0E00FB8B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A94AC9D118DB1F0E00FB8B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94AC9D318DB1F0E00FB8B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jo Albright (3Y8N8YSYR7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jo Albright (3Y8N8YSYR7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tip Tap Top/Tip Tap Top-Prefix.pch";
+				INFOPLIST_FILE = "Tip Tap Top/Tip Tap Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "68213153-DE1D-46DB-B269-AF715FC1CE66";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A94AC9D418DB1F0E00FB8B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jo Albright (3Y8N8YSYR7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jo Albright (3Y8N8YSYR7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tip Tap Top/Tip Tap Top-Prefix.pch";
+				INFOPLIST_FILE = "Tip Tap Top/Tip Tap Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "68213153-DE1D-46DB-B269-AF715FC1CE66";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A94AC9D618DB1F0E00FB8B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tip Tap Top.app/Tip Tap Top";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tip Tap Top/Tip Tap Top-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tip Tap TopTests/Tip Tap TopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A94AC9D718DB1F0E00FB8B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tip Tap Top.app/Tip Tap Top";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tip Tap Top/Tip Tap Top-Prefix.pch";
+				INFOPLIST_FILE = "Tip Tap TopTests/Tip Tap TopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94AC9A118DB1F0E00FB8B8F /* Build configuration list for PBXProject "Tip Tap Top" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94AC9D018DB1F0E00FB8B8F /* Debug */,
+				A94AC9D118DB1F0E00FB8B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94AC9D218DB1F0E00FB8B8F /* Build configuration list for PBXNativeTarget "TipTapToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94AC9D318DB1F0E00FB8B8F /* Debug */,
+				A94AC9D418DB1F0E00FB8B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94AC9D518DB1F0E00FB8B8F /* Build configuration list for PBXNativeTarget "Tip Tap TopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94AC9D618DB1F0E00FB8B8F /* Debug */,
+				A94AC9D718DB1F0E00FB8B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94AC99E18DB1F0E00FB8B8F /* Project object */;
+}
