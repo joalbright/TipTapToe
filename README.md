@@ -3,6 +3,8 @@ TipTapToe
 
 A Tic Tac Toe like game built for a contest held by Team Treehouse.
 
+![Game Play](https://copy.com/FuxGT9FZbVrJLc8I) ![Win](https://copy.com/cpxJ2i2Axy777dm2) ![Stats](https://copy.com/fLUcVR6wRb8i4xG8)
+
 ## Options
 
 - Game Mode : tap the top right button to change the game mode
