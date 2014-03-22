@@ -1,7 +1,7 @@
 TipTapToe
 =========
 
-A Tic Tac Toe like game built for a contest held by Team Treehouse.
+A Tic Tac Toe like game built for a contest held by [Team Treehouse](https://teamtreehouse.com/).
 
 ![Game Play](https://copy.com/fy3CYLuhsiNbM7ew) ![Win](https://copy.com/PkrDC6GU9wyYBwDE) ![Stats](https://copy.com/aiAdD1WumV4Elf2H)
 
