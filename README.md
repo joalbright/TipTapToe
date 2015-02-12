@@ -13,7 +13,7 @@ A Tic Tac Toe like game built for a contest held by [Team Treehouse](https://tea
 - View Stats : tap the top left button to view stats
 - View Past Games : swipe up and down to view all games played
 
-## Feautures
+## Features
 
 - First player color switches each game allowing a fair advantage to winning.
 - A label stating which color's turn it is.
